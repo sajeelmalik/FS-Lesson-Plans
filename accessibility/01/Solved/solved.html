@@ -13,7 +13,9 @@
 </head>
 
 <body class="vsc-initialized">
-
+    <!-- Here is our "invisible" content - it only shows up to screen readers! -->
+    <a class="sr-only sr-only-focusable" href="#bottom">Go to bottom </a>
+    
     <!-- LANDMARK: Our header -->
     <header>
         <nav class="bg-dark collapse" id="navbarHeader" style="">
@@ -48,10 +50,11 @@
                     </svg>
                     <strong>Album</strong>
                 </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
-                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-            </button>
+                </button>
             </div>
         </div>
     </header>
@@ -66,7 +69,8 @@
             <div class="container">
                 <h1 class="jumbotron-heading">Jacob's First Album</h1>
                 <p class="lead text-muted">Catch the action with the first platinum album by America's Favorite TA!
-                    Rated 10.1/10 by Pitchfork but an average of 34.2/100 by everyone else, the album has taken the indie
+                    Rated 10.1/10 by Pitchfork but an average of 34.2/100 by everyone else, the album has taken the
+                    indie
                     scene by storm as the best but most controversial album of all time.</p>
                 <p>
                     <a href="#" class="btn btn-primary my-2">Listen</a>
@@ -115,7 +119,7 @@
     <footer class="text-muted">
         <div class="container">
             <p class="float-right">
-                <a href="#">Back to top</a>
+                <a href="#" id="bottom">Back to top</a>
             </p>
         </div>
     </footer>

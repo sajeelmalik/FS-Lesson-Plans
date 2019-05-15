@@ -32,6 +32,8 @@ To provide a better and more understanable experience for screen readers, we sho
 Including at LEAST `<header>`, `<main>`, and `<footer>` landmarks is slowly becoming convention!
 ```
 
+Adding roles to your content also adds value to screen-readers. At the very least, add a `role="main"` to your main content to highlight the part that contains the central topic of the document. Check the **Resources** section below for some more information on aria roles.
+
 For example, given a code snippet like this
 
 ```HTML
@@ -65,7 +67,7 @@ We would want to wrap our content in landmark tags, based on the section:
     </nav>
 </header>
 
-<main>
+<main role="main">
     <div>
         <h1>I am so cool</h1>
     </div>
@@ -99,6 +101,10 @@ We would want to wrap our content in landmark tags, based on the section:
 4. Also be on the lookout for elements that hint that they are buttons! Change those `divs` to `button` elements.
     - Note: `<button>` tags in HTML are more than just semantic - they provide clickability and minor styling, and sometimes form submission. 
 
+#### BONUS!
+
+1. Add a link (`<a href="">`) at the beginning of the body that only shows up if the user is screen-reading (HINT: there's a fairly easy way to do this with Bootstrap). 
+    - You might need to look up some documentation on Google or YouTube on how to do this! 
 
 ### Definitions 
 
@@ -109,3 +115,5 @@ We would want to wrap our content in landmark tags, based on the section:
 ### More Resources
 
 https://www.w3schools.com/html/html5_semantic_elements.asp
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
+
