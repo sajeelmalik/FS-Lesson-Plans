@@ -13,12 +13,12 @@
 </head>
 
 <body class="vsc-initialized">
-    <!-- Here is our "invisible" content - it only shows up to screen readers! -->
+    <!-- Here is our "invisible" content - it only shows up to screen readers! Note that this is a specific Bootstrap class. -->
     <a class="sr-only sr-only-focusable" href="#bottom">Go to bottom </a>
     
     <!-- LANDMARK: Our header -->
     <header>
-        <nav class="bg-dark collapse" id="navbarHeader" style="">
+        <div class="bg-dark collapse" id="navbarHeader" style="">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
@@ -37,8 +37,8 @@
                     </div>
                 </div>
             </div>
-        </nav>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
+        </div>
+        <nav class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container d-flex justify-content-between">
                 <a href="#" class="navbar-brand d-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
@@ -56,7 +56,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- END header -->
 

@@ -2,6 +2,21 @@
 
 **Accessibility** is an often-overlooked part of building and designing web pages. It ensures that all different types of users, especially those with disabilities, have an equal experience when visiting any web page.
 
+## How to Use Assistive Technologies
+
+Accessibility allows those who use assistive technologies, like screen readers, to experience the application as best as possible. Most computers have built-in readers.
+
+#### For Windows Users:
+
+Narrator 
+- https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator
+
+#### For Mac Users:
+
+VoiceOver
+- https://www.apple.com/accessibility/mac/vision/
+    - Check the VoiceOver user guide
+
 ## Principles of Accessibility
 
 The principles of accessibility, based on the International standards from W3C Web Accessibility Initiative (WAI), generally dictate that user interfaces (UIs) should be perceivable, operable, and understandable. 
@@ -56,8 +71,17 @@ That is, any type of user should be able to see, use, and understand the interfa
 
 #### 3. Understandable user interface 
 - Text is readable and understandable
+    - Content authors need to ensure that text content is readable and understandable to the broadest audience possible, including when it is read aloud by text-to-speech. Such content includes:
+        - Identifying the primary language of a web page, such as Arabic, Dutch, or Korean
+        - Identifying the language of text passages, phrases, or other parts of a web page
+        - Providing definitions for any unusual words, phrases, idioms, and abbreviations
+        - Using the clearest and simplest language possible, or providing simplified versions
 
 - Users are helped to avoid and correct mistakes
+    - Forms and other interaction can be confusing or difficult to use for many people, and, as a result, they may be more likely to make mistakes. Examples of helping users to avoid and correct mistakes include:
+        - Descriptive instructions, error messages, and suggestions for correction
+        - Context-sensitive help for more complex functionality and interaction
+        - Opportunity to review, correct, or reverse submissions if necessary
 
 #### 4. Robust and reliable Interpretation
 - Content is compatible with current and future user tools  
@@ -65,11 +89,11 @@ That is, any type of user should be able to see, use, and understand the interfa
         - Ensuring markup can be reliably interpreted, for instance by ensuring it is valid;
         - Providing a name, role, and value for non-standard user interface components.
 
-## Code Drills
+## Student Activities 
 
 1. Semantic Tags
-2. 
-3. 
+2. Alerts
+3. Images 
 
 
 ### References 

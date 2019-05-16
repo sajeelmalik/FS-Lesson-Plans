@@ -1,8 +1,10 @@
 # Semantic Tags
 
+*Instructions at the bottom*
+
 When we create HTML tags, we often want to be explicit about what content each tag will contain. 
 
-You always would want to *describe the content that you're displaying* and utilize existing and accepted semantic elements!
+While we are mostly going to use `<div>` tags to create our general elements (something you will see on many webpages online), whenever we have the opportunity, we should *describe the content that we're displaying* and utilize existing and accepted semantic elements!
 
 ## WHY?
 1. Clarity for other computers
@@ -24,12 +26,12 @@ rather than a basic div, even though they achieve the same functionality.
 </div>
 ```
 
-## Landmark Sections
+## Landmarks
 
-To provide a better and more understanable experience for screen readers, we should semantically organize the most important content in our pages in what are called "landmarks." Examples of landmark tags include `<header>`, `<main>`, and `<footer>`.
+To provide a better and more understandable experience for screen readers, we should semantically organize the most important content in our pages in what are called "landmarks." Examples of landmark tags include `<header>`, `<main>`, and `<footer>`.
 
-```
-Including at LEAST `<header>`, `<main>`, and `<footer>` landmarks is slowly becoming convention!
+```HTML
+Including at LEAST <header>, <main>, and <footer> landmarks in web pages is slowly becoming convention!
 ```
 
 Adding roles to your content also adds value to screen-readers. At the very least, add a `role="main"` to your main content to highlight the part that contains the central topic of the document. Check the **Resources** section below for some more information on aria roles.
@@ -37,10 +39,9 @@ Adding roles to your content also adds value to screen-readers. At the very leas
 For example, given a code snippet like this
 
 ```HTML
-<nav>
-    This is my navbar
-    <a href="#">Link</a>
-</nav>
+<div>
+    This is my project's logo.
+</div>
 
 <div>
     <h1>I am so cool</h1>
@@ -61,10 +62,7 @@ We would want to wrap our content in landmark tags, based on the section:
 
 ```HTML
 <header>
-    <nav>
-        This is my navbar
-        <a href="#">Link</a>
-    </nav>
+    This is my project's logo.
 </header>
 
 <main role="main">
@@ -92,13 +90,13 @@ We would want to wrap our content in landmark tags, based on the section:
 
 # Instructions
 
-1. Open `semantic.html` and adjust tags so that they are more explicit and semantic. 
+Open `semantic.html` and adjust the tags so that they are more explicit and semantic. 
 
-2. Also, review the areas that are labeled as `landmarks` and wrap the content in a semantic tag.
+1. Review the areas that are labeled as `landmarks` and wrap the content in a semantic "landmark" tag.
 
-3. Pay close attention to the one element that hints that it's a `nav` element (it should have a class that hints to this)! Change that `div` to be a `nav` element.
+2. Pay close attention to the one element that hints that it's a `nav` element (it should have many classes that hint to this)! Change that `div` to be a `nav` element.
 
-4. Also be on the lookout for elements that hint that they are buttons! Change those `divs` to `button` elements.
+3. Also be on the lookout for elements that hint that they are buttons! Change those `divs` to `button` elements.
     - Note: `<button>` tags in HTML are more than just semantic - they provide clickability and minor styling, and sometimes form submission. 
 
 #### BONUS!
