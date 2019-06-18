@@ -36,3 +36,8 @@ To add more assistive labels, you can add an `aria-label=""`.
 
 Alerts are useful when dealing with form validation. If a user's input fails the validations, you can dynamically generate an alert with a `role="alert"` 
 
+## **DEMO:** Alerts.
+
+
+
+
