@@ -2,11 +2,11 @@
 
 // ================================================================
 
-// Create a constructor function named "Google" (ideally, we would want to create a Class, but let's stick to ES5 Javascript for now). 
+// Create a object named "Google" (we might want to create a Class, but let's stick to ES5 Javascript for now). 
 
-var Google = function(){
+var Google = {
 
-// In our constructor, let's create a basic search function named "search" (this.search) that takes in two arguments, an array and a variable.
+// In our object, let's create a basic search function named "search" that takes in two arguments, an array and a variable.
 
 
         // In the function, create a results object with two keys: positions (an empty array), and count (a number starting at 0).
@@ -23,12 +23,12 @@ var Google = function(){
 }
 
 
-// Export your Google constructor
+// Export your Google object
 
 
 // BONUSES: 
 
-// 1. Create a second function called "searchOnline" (this.searchOnline) which takes in a string as a search query and opens a browser search for that query. Remember, we are running in nodejs.
+// 1. Create a second function called "searchOnline" which takes in a string as a search query and opens a browser search for that query. Remember, we are running in nodejs.
 
 // 2. In your results object, add a key for "time" that RETURNS the time it took, in ms, for your search execution to run. This may be hard to find.
 
