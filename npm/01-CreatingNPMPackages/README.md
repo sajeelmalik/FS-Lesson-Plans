@@ -1,6 +1,6 @@
-# Creating NPM Packages
+# **01-Creating NPM Packages**
 
-**NPM**, or Node Package Manager*, is an online registry that houses many packages that are written in Javascript (Node.js). These packages are described by a *package.json* and are written by other developers so that they can share the functionality that they have written so that other developers and programs can use them.
+**NPM**, or Node Package Manager*, is an online registry that houses many packages that are written in Javascript (Node.js). These packages are described by a **`package.json`** and are written by developers so that they can share the code that they have written. NPM Packages make it easy for other developers and programs to utilize other people's useful code.
 
 ###  *Alternative names include:
 - Nostalgic platinum minotaurs
@@ -17,11 +17,11 @@ A simple example is **Chalk** (https://www.npmjs.com/package/chalk), an NPM pack
 
 To install this package locally, we would run the following in our terminal:
 
-```npm install chalk```
+**```npm install chalk```**
 
 and then would write this line at the top of our Javascript (Node.js) file:
 
-```var chalk = require("chalk")```.
+**```var chalk = require("chalk")```**.
 
 
 ## How to Create Your Own Module
@@ -30,7 +30,7 @@ and then would write this line at the top of our Javascript (Node.js) file:
 
 2. Open up your terminal and login locally to **NPM**, using either:
 
-    ```npm adduser```   or    ```npm login```.
+    **```npm adduser```**   or    **```npm login```**.
 
     You should be prompted with your username, password, and email address, and then should receive a message indicated that you've logged in with your username.
 
