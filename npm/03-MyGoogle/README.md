@@ -5,13 +5,17 @@ We also want to create a GitHub repository so that others can see our code onlin
 
 1. In your GitHub, create an empty repository named **Google**. "Empty" means do NOT add a README nor a .gitignore nor a LICENSE! For this exercise, we will manually add those later.
 
+Your repo should look like this: 
+
+![Git Remote](./git-remote.PNG)
+
 2. Locally, in your *google* directory, run the following command:
 
     **`git init`**.
 
     This will create a `.git` file in your directory and set up your repo for version control. 
 
-3. Copy your repo's HTTPS link (located inside the green button named "Clone or download"). Let's run the following commands in successful to finalize your git connection.
+3. Copy your repo's HTTPS link (located next to the gray HTTPS button). Let's run the following commands in successful to finalize your git connection.
 
     - **`git add .`**
 
